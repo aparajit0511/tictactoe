@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+  width: 100;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+.mainStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rowStyle {
+  display: flex;
+  flex-direction: row;
+}
+
+.boxStyle {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: block;
+}
+.text {
+  text-align: center;
+  font-size: larger;
+  color: white;
+}
